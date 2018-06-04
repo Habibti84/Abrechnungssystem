@@ -1,0 +1,55 @@
+body {
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+}
+
+#nav {
+  height: 30px;
+  background-color: #50828b;
+  overflow: hidden;
+
+}
+
+.dropdown {
+  height: 30px;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background-color: grey;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+
+
+.menu:hover {
+  overflow: visible;
+}
+
+li {
+  height: 30px;
+  margin-top: 10px;
+}
+
+
+
+/*#nav ul, li {
+  display: none;
+}*/
+
+#nav:hover {
+  height: 60px;
+  overflow: visible;
+}
+
+/*#nav:hover .menu  {
+  overflow: visible;
+}*/
